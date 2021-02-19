@@ -1,0 +1,28 @@
+{
+  "name": "asc-orchard-hackathon-2021",
+  "description": "Automated Testing for the 2021 ASC/Orchard Hackathon",
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "private": true,
+  "repository": {
+    "url": "git+https://github.com/theorchard/asc-orchard-hackathon-2021.git"
+  },
+  "dependencies": {
+    "mocha": "8.2.1"
+  },
+  "version": "0.0.0",
+  "bugs": {
+    "url": "https://github.com/theorchard/asc-orchard-hackathon-2021/issues"
+  },
+  "homepage": "https://github.com/theorchard/asc-orchard-hackathon-2021#readme",
+  "main": "code-challenges.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "lint": "eslint code-challenges.js test/"
+  },
+  "author": "The Orchard",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
